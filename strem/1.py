@@ -1,4 +1,6 @@
 import streamlit as st
-name = st.text_input("Enter your name")
 
-st.write("hello ", name)
+st.title("Learning the streamlit lib")
+st.header("Reading files")
+name = st.text_input("Enter your name")
+st.write("Hello sir ", name)
